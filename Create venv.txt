@@ -1,0 +1,23 @@
+1)Create virtaul env in folder (say m1)
+a) python -m venv v1
+
+2) Activate Virtual env inside m1
+a) v1/Scripts/activate.bat
+
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+3) 
+a) Crtl + Shift + P
+b) Python select Interpreter
+c) Enter Interpreter
+d) Find
+e) Find path to Scripts -> Python
+
+4) Open terminal again
+
+5) Deactivate Venv
+deactivate
+
+
+& c:/Users/Dell/Downloads/Imarticus_work/MD/md6/v1/Scripts/Activate.ps1
+
