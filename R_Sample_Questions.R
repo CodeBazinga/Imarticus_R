@@ -40,6 +40,8 @@ city <- c('Delhi','Mumbai','Pune','Delhi')
 df <- data.frame(names,age,city)
 df
 
+r1 <- split(df,seq(nrow(df))) 
+r1
 
 # Q4) Rotate a matrix by 90 degrees
 s1 <- matrix(1:16,nrow=4)
